@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>G servicios</title>
+    <link rel="icon" href="static\\icono g.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Ruda:wght@800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light sticky-top">
+    <div class="container-fluid" id="navegacion">
+        <a class="navbar-brand" href="index.html"><img src="static/logo g_servicios.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto" id="box-items-nav">
+                <li class="nav-item ms-5">
+                    <a class="nav-link active" aria-current="page" href="diseño web.html">Diseño web</a>
+                </li>
+                <li class="nav-item ms-5">
+                    <a class="nav-link active" href="software.html">Software</a>
+                </li>
+                <li class="nav-item ms-5">
+                    <a class="nav-link active" href="base datos.html">Bases de datos</a>
+                </li>
+                <li class="nav-item ms-5">
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container-fluid mt-3 p-3" id="form">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mb-3">CONTACTANOS</h1>
+            <form action="#">
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" name="firstName" class="form-control" placeholder="Nombre"
+                            aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Apellido</label>
+                        <input type="text" name="lastName" class="form-control" placeholder="Apellido"
+                            aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="Email"
+                            aria-label="Email" required>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Telefono (opcional)</label>
+                        <input type="text" name="phone" class="form-control" placeholder="Telefono"
+                            aria-label="Phone">
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Solucion requerida</label>
+                        <input type="text" name="subject" class="form-control" placeholder="Solucion"
+                            aria-label="Subject" required>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col">
+                        <label class="form-label">Descibenos tu problema</label>
+                        <textarea type="text" name="message" class="form-control" placeholder="Cuentanos acerca de tu problema"
+                            aria-label="Message" required></textarea>
+                    </div>
+                </div>
+                <div class="container text-center">
+                <button type="submit" class="btn mt-2" id="btn-form">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
