@@ -1,0 +1,94 @@
+$color1: #81796e;
+$color2: #ffb951;
+
+main>{
+    .container-fluid {
+        padding: 60px 15px 0;
+    }
+}
+
+.navbar{
+    background-color: #f9fafa;
+    font-family: Roboto;
+    font-weight: 500;
+}
+a{
+        .nav-link{
+            .active{
+                color: $color1!important;
+            }
+        }
+}
+.titulo{
+    font-family: Ruda;
+    color: $color1;
+}
+b{
+    font-family: Roboto;
+    font-weight: 300;
+    color:$color1;
+    font-size: larger;
+}
+strong{
+    font-size: larger
+}
+.btn{
+    background-color: $color1;
+    color: $color2!important;
+    font-family: Roboto;
+}
+.card{
+    height: 300px;
+    background-color: #d1ccc4;
+    font-family: Roboto;
+    font-weight: 300;
+    color:$color1;
+    font-size: larger;
+}
+i{
+    font-size: 50px;
+}
+#card-btn{
+    background-color: $color2;
+    color: $color1!important;
+    font-weight: 500;
+}
+
+.btn:hover{
+    font-size: 17px;
+}
+
+a{
+    .nav-link{
+        .active:hover{
+            box-shadow: inset 10px 5rem #dbdfdf79
+        }
+    }    
+}
+
+#form{
+    width: 80%;
+    font-family: Ruda;
+    color:$color1;
+    background-color: #d1ccc4;
+    border-radius: 10px;
+}
+#btn-form{
+    width: 50%;
+}
+
+
+@media (min-width:1300px) {
+    #navegacion{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .flex-shrink-0{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    #form{
+        width: 30rem;
+    }
+}
+

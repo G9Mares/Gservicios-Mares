@@ -1,0 +1,90 @@
+main > .container-fluid {
+  padding: 60px 15px 0;
+}
+
+.navbar {
+  background-color: #f9fafa;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+a .nav-link .active {
+  color: #81796e !important;
+}
+
+.titulo {
+  font-family: Ruda;
+  color: #81796e;
+}
+
+b {
+  font-family: Roboto;
+  font-weight: 300;
+  color: #81796e;
+  font-size: larger;
+}
+
+strong {
+  font-size: larger;
+}
+
+.btn {
+  background-color: #81796e;
+  color: #ffb951 !important;
+  font-family: Roboto;
+}
+
+.card {
+  height: 300px;
+  background-color: #d1ccc4;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #81796e;
+  font-size: larger;
+}
+
+i {
+  font-size: 50px;
+}
+
+#card-btn {
+  background-color: #ffb951;
+  color: #81796e !important;
+  font-weight: 500;
+}
+
+.btn:hover {
+  font-size: 17px;
+}
+
+a .nav-link .active:hover {
+  box-shadow: inset 10px 5rem rgba(219, 223, 223, 0.4745098039);
+}
+
+#form {
+  width: 80%;
+  font-family: Ruda;
+  color: #81796e;
+  background-color: #d1ccc4;
+  border-radius: 10px;
+}
+
+#btn-form {
+  width: 50%;
+}
+
+@media (min-width: 1300px) {
+  #navegacion {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .flex-shrink-0 {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  #form {
+    width: 30rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

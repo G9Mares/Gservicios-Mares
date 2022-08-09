@@ -1,0 +1,19 @@
+{
+  "name": "gservicios-mares",
+  "version": "1.0.0",
+  "description": "Entrega sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G9Mares/Gservicios-Mares.git"
+  },
+  "author": "G mares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G9Mares/Gservicios-Mares/issues"
+  },
+  "homepage": "https://github.com/G9Mares/Gservicios-Mares#readme"
+}
