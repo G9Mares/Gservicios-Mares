@@ -1,6 +1,20 @@
 $color1: #81796e;
 $color2: #ffb951;
 
+$valores_elemento:(
+    color1:#81796e,
+    color2:#ffb951,
+    font1:Ruda,
+    font2:Roboto,
+    bg-color1:#f9fafa,
+    bg-color2:#d1ccc4
+);
+
+@mixin elemto($color,$fuent){
+    color:$color;
+    font-family: $fuent;
+}
+
 main>{
     .container-fluid {
         padding: 60px 15px 0;
@@ -9,48 +23,45 @@ main>{
 
 .navbar{
     background-color: #f9fafa;
-    font-family: Roboto;
+    font-family: map-get($valores_elemento,font2);
     font-weight: 500;
 }
 a{
         .nav-link{
             .active{
-                color: $color1!important;
+                color: map-get($valores_elemento,color1)!important;
             }
         }
 }
 .titulo{
-    font-family: Ruda;
-    color: $color1;
+    @include elemto( map-get($valores_elemento,color1),map-get($valores_elemento,font1));
 }
 b{
-    font-family: Roboto;
+    @include elemto( map-get($valores_elemento,color1),map-get($valores_elemento,font2));
     font-weight: 300;
-    color:$color1;
     font-size: larger;
 }
 strong{
     font-size: larger
 }
 .btn{
-    background-color: $color1;
-    color: $color2!important;
-    font-family: Roboto;
+    background-color:map-get($valores_elemento,color1);
+    @include elemto( map-get($valores_elemento,color2),map-get($valores_elemento,font2));
+    
 }
 .card{
+    @include elemto( map-get($valores_elemento,color1),map-get($valores_elemento,font2));
     height: 300px;
     background-color: #d1ccc4;
-    font-family: Roboto;
     font-weight: 300;
-    color:$color1;
     font-size: larger;
 }
 i{
     font-size: 50px;
 }
 #card-btn{
-    background-color: $color2;
-    color: $color1!important;
+    background-color:  map-get($valores_elemento,color2);
+    color: map-get($valores_elemento,color1)!important;
     font-weight: 500;
 }
 
@@ -68,8 +79,7 @@ a{
 
 #form{
     width: 80%;
-    font-family: Ruda;
-    color:$color1;
+    @include elemto( map-get($valores_elemento,color1),map-get($valores_elemento,font1));
     background-color: #d1ccc4;
     border-radius: 10px;
 }

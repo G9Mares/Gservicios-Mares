@@ -13,14 +13,14 @@ a .nav-link .active {
 }
 
 .titulo {
-  font-family: Ruda;
   color: #81796e;
+  font-family: Ruda;
 }
 
 b {
+  color: #81796e;
   font-family: Roboto;
   font-weight: 300;
-  color: #81796e;
   font-size: larger;
 }
 
@@ -30,16 +30,16 @@ strong {
 
 .btn {
   background-color: #81796e;
-  color: #ffb951 !important;
+  color: #ffb951;
   font-family: Roboto;
 }
 
 .card {
+  color: #81796e;
+  font-family: Roboto;
   height: 300px;
   background-color: #d1ccc4;
-  font-family: Roboto;
   font-weight: 300;
-  color: #81796e;
   font-size: larger;
 }
 
@@ -63,8 +63,8 @@ a .nav-link .active:hover {
 
 #form {
   width: 80%;
-  font-family: Ruda;
   color: #81796e;
+  font-family: Ruda;
   background-color: #d1ccc4;
   border-radius: 10px;
 }
